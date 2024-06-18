@@ -1526,8 +1526,11 @@ height: 36px !important; */
 }
 
 @media screen and (max-width: 768px) {
+.industry-served-main-div {
+    padding-bottom: 20px !important;
+}
     .industry-served {
-        margin-top: 50px !important;
+        margin-top: -50px !important;
     }
 
     .industry-served-heading {
@@ -1573,6 +1576,7 @@ height: 36px !important; */
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 20px !important;
     }
 
     .hexagon-1 {

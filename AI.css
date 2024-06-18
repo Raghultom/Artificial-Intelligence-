@@ -245,22 +245,29 @@ height: 36px !important; */
 
 /* consulting start */
 
-.Our-AI-Consulting-rectangle-image {
-    margin-top: 250px !important;
-    margin-left: 30px;
-    margin-right: 50px;
-    width: 650px;
+.Our-AI-consulting-content {
+    margin-top: 100px;
+  
 }
 
-.Our-AI-Consulting-content {
-    margin-top: -570px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+.position-relative {
+    position: relative;
+}
+
+.Our-AI-Consulting-rectangle-image {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    left: -80px; /* Adjust as needed */
+    width: 650px; /* Adjust as needed */
+    z-index: 1;
 }
 
 .Our-AI-Consulting-image {
+    position: relative;
     padding-right: 50px !important;
+    z-index: 2;
 }
+
 
 .Our-AI-Consulting-maindiv {
     width: 100%;
@@ -463,7 +470,7 @@ height: 36px !important; */
 
 .background-rectangle {
     position: absolute;
-    margin-top: 320px;
+    margin-top: 400px;
     background: #C1F0D980;
     width: 53%;
     /* Adjust as needed */

@@ -1736,6 +1736,13 @@ height: 36px !important; */
     display: none !important;
 }
 
+@media screen and (max-width: 320px){
+    .testimonial-mobile {
+        height: 500px !important;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .testimonial-mobile-main-div {
         display: block !important;
@@ -1769,7 +1776,7 @@ height: 36px !important; */
         /* height: 100vh; */
         padding-top: 120px !important;
         position: relative;
-        height: 450px !important;
+        height: 450px;
     }
 
     .testimonial-card {

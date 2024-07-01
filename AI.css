@@ -480,13 +480,15 @@ margin-top: -50px !important;
 
 .background-rectangle {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 450px;
     background: #C1F0D980;
-    width: 53%;
+    width: 52%;
     /* Adjust as needed */
     height: 150px;
     /* Adjust as needed */
-    left: 47%;
+    /* left: 47%; */
+    /* margin-left: 634px; */
+    right: 0 !important;
     /* Center the rectangle */
 }
 
@@ -755,7 +757,9 @@ margin-top: -50px !important;
     content: "\2212";
     color: #2CA068;
 }
-
+.accordion-container{
+    margin-top: -20px !important;
+}
 .Hire-models-panel {
     padding: 0 16px;
     background-color: transparent;
@@ -903,7 +907,7 @@ margin-top: -50px !important;
 
     .Fixed-Price-Model-row img {
         margin-left: -40px;
-        width: 17px;
+        width: 14px;
         height: 14px;
     }
 
@@ -1718,16 +1722,16 @@ margin-top: -50px !important;
 }
 
 .testimonial-profile-text h2 {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.11px;
+    font-size: 16px !important;
+    font-weight: 550 !important;
     text-align: center !important;
+    color: #000000 !important;
+
 }
 
 .testimonial-profile-text p {
     font-size: 11px;
-    font-weight: 400;
-    line-height: 13.83px;
+    font-weight: 500 !important;
     text-align: center !important;
     color: #414042 !important;
 
@@ -2374,6 +2378,7 @@ margin-top: -50px !important;
     text-align: right;
     /* Align the text to the right */
     color: #676968;
+    margin-top: 5px !important;
 }
 
 .form-touch {
@@ -2485,6 +2490,8 @@ label {
 .form-text {
     font-size: 24px !important;
     font-weight: 700 !important;
+    color: #000000 !important;
+
 }
 
 .form-line {
@@ -2509,7 +2516,7 @@ textarea {
     background: linear-gradient(93.27deg, #23899c -14.73%, #2ca068 104.65%);
     width: 414px;
     height: 36px;
-    border-radius: 12px;
+    border-radius: 8px !important;
     color: #ffffff;
     outline: none;
     border: none;

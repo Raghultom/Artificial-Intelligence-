@@ -611,6 +611,22 @@ margin-top: -50px !important;
     margin-left: 20px;
     margin-top: 15px;
 }
+.Applications-Through-button{
+    border: none !important;
+    color: white !important;
+font-size: 18px;
+font-weight: 700;
+line-height: 22.63px;
+text-align: left;
+height: 42px !important;
+width: 143px !important;
+padding: 10px, 20px, 10px, 20px !important;
+border-radius: 8px !important;
+margin-top: 40px !important;
+text-align: center !important;
+
+    background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+}
 
 .Dedicated-Hiring-Model-heading {
     margin-left: 20px;
@@ -669,7 +685,7 @@ margin-top: -50px !important;
 .Hiring-Models-img {
     width: 470px;
     height: 380px;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .Fixed-Price-Model-row {
@@ -1227,6 +1243,7 @@ margin-top: -50px !important;
     opacity: 0px;
 }
 
+
 .dot-indicator.active {
     background-color: #2CA068 !important;
     width: 24px !important;
@@ -1263,7 +1280,10 @@ margin-top: -50px !important;
     .Our-casestudies-indicator {
         margin-bottom: -12px !important;
     }
-
+    .Our-casestudies-items img{
+        margin-top: 30px !important;
+        
+    }
     .Our-casestudies-Software-Solution {
         margin-top: 0px !important;
     }
